@@ -23,7 +23,7 @@ commit: $(SUBMODULE_DIR) | $(GEN_TARGET_DIR) $(CNAME)
 		git add -A && \
 		git commit \
 			--allow-empty \
-			-m "Build $$(date '+%m/%d/%y %H:%M')" && \
+			-m "Build $$(TZ='Europe/Vilnius' date --rfc-3339=seconds)" && \
 		git push ../ master:master # avoid diverging
 
 upload: | $(SUBMODULE_DIR)
