@@ -8,8 +8,8 @@ env:
     - secure: "fkytTKJVcJZUW5OTYcKW5D3/hQTwgqfKkguA0nbpqan+1q4amyovAxJLxBPgIn/snyNZV1b7jgwN3TExRUjE0mf0O0tqo9/X5Yg/t+HfpwN2aCDVEmd+7z1jea8GliVNesiamvZfFeaaYzzlNu0zkdf9o0nkHETKY2d/j++jM6Q="
 install:
   - cabal sandbox init
-  - cabal configure --disable-library-profiling --disable-tests --disable-library-coverage --disable-benchmarks --disable-split-objs
-  - cabal install -j --disable-documentation hakyll
+  - cabal install -j --disable-documentation --disable-tests --reorder-goals --disable-library-profiling --disable-library-coverage --disable-benchmarks --disable-split-objs -fhttps pandoc
+  - cabal install -j --disable-documentation --disable-tests --reorder-goals --disable-library-profiling --disable-library-coverage --disable-benchmarks --disable-split-objs
 script:
   - make build
   - git config --global user.name "λ-Wolf bot"
