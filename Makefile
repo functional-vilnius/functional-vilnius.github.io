@@ -1,9 +1,9 @@
-.PHONY: build commit upload
-
 GEN_TARGET_DIR=_site
 SUBMODULE_DIR=$(GEN_TARGET_DIR).git
 CNAME=CNAME
 REMOTE=github.com/functional-vilnius/functional-vilnius.github.io
+
+.PHONY: build commit upload $(SUBMODULE_DIR)
 
 build:
 	cabal run rebuild
@@ -16,7 +16,7 @@ $(SUBMODULE_DIR):
 
 ## Used by TravisCI
 
-commit: | $(GEN_TARGET_DIR) $(SUBMODULE_DIR) $(CNAME)
+commit: $(SUBMODULE_DIR) | $(GEN_TARGET_DIR) $(CNAME)
 	cp -r $(GEN_TARGET_DIR)/* $(SUBMODULE_DIR)
 	cp $(CNAME) $(SUBMODULE_DIR)
 	cd $(SUBMODULE_DIR) && \
