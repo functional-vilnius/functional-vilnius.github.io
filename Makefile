@@ -11,7 +11,7 @@ build:
 $(GEN_TARGET_DIR): build
 
 $(SUBMODULE_DIR):
-	git submodule update --init
+	git submodule update --init --remote
 
 ## Used by TravisCI
 
