@@ -26,7 +26,7 @@ commit: | $(GEN_TARGET_DIR) $(SUBMODULE_DIR) $(CNAME)
 		git push origin master:master
 
 upload: | $(SUBMODULE_DIR)
-	@test ${GH_TOKEN} || echo "Error: Github Token missing!" && exit 1
+	@test ${GH_TOKEN} || (echo "Error: Github Token missing!" && exit 1)
 	test ${REMOTE}
 	cd $(SUBMODULE_DIR) && \
 		git push "https://${GH_TOKEN}@${REMOTE}" master:master
