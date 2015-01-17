@@ -13,4 +13,4 @@ script:
 after_script:
 - git config --global user.name "λ-Wolf bot"
 - git config --global user.email info@functionalvilnius.lt
-- '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && make commit upload | sed -r "s|https://(.*)@|https://{{SECRET}}@|g"'
+- ' [ "${TRAVIS_PULL_REQUEST}" = "false" ] && make commit upload 2>&1 | sed -r "s|https://(.*)@|https://{{SECRET}}@|g" '
