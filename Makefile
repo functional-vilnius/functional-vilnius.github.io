@@ -1,4 +1,4 @@
-.PHONY: build
+.PHONY: build commit upload
 
 GEN_TARGET_DIR=_site
 SUBMODULE_DIR=$(GEN_TARGET_DIR).git
@@ -12,6 +12,7 @@ $(GEN_TARGET_DIR): build
 
 $(SUBMODULE_DIR):
 	git submodule update --init --remote
+	git submodule foreach git checkout master
 
 ## Used by TravisCI
 
@@ -23,7 +24,7 @@ commit: | $(GEN_TARGET_DIR) $(SUBMODULE_DIR) $(CNAME)
 		git commit \
 			--allow-empty \
 			-m "Build $$(date '+%m/%d/%y %H:%M')" && \
-		git push origin master:master
+		git push ../ master:master # avoid diverging
 
 upload: | $(SUBMODULE_DIR)
 	@test ${GH_TOKEN} || (echo "Error: Github Token missing!" && exit 1)
