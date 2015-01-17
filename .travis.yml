@@ -25,3 +25,4 @@ deploy:
   file: cabal-sandbox.tar.gz
   on:
       tags: false
+      branch: source
