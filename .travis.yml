@@ -16,7 +16,6 @@ script:
   - git config --global user.email info@functionalvilnius.lt
   - ' [ "${TRAVIS_PULL_REQUEST}" = "true" ] || make commit upload 2>&1 | sed -r "s|https://(.*)@|https://{{SECRET}}@|g" '
 before_deploy:
-  - git tag cabal-sandbox
   - tar cf cabal-sandbox.tar.gz .cabal-sandbox/ cabal.sandbox.config
 deploy:
   provider: releases
