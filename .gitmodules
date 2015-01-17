@@ -1,4 +1,4 @@
-[submodule "_site"]
-	path = _site
+[submodule "_site.git"]
+	path = _site.git
 	url = ./
 	branch = master
