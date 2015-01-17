@@ -2,15 +2,15 @@ language: haskell
 ghc: 7.6
 branches:
   only:
-  - source
+    - source
 env:
   global:
-  - secure: "fkytTKJVcJZUW5OTYcKW5D3/hQTwgqfKkguA0nbpqan+1q4amyovAxJLxBPgIn/snyNZV1b7jgwN3TExRUjE0mf0O0tqo9/X5Yg/t+HfpwN2aCDVEmd+7z1jea8GliVNesiamvZfFeaaYzzlNu0zkdf9o0nkHETKY2d/j++jM6Q="
+    - secure: "fkytTKJVcJZUW5OTYcKW5D3/hQTwgqfKkguA0nbpqan+1q4amyovAxJLxBPgIn/snyNZV1b7jgwN3TExRUjE0mf0O0tqo9/X5Yg/t+HfpwN2aCDVEmd+7z1jea8GliVNesiamvZfFeaaYzzlNu0zkdf9o0nkHETKY2d/j++jM6Q="
 install:
-- cabal install hakyll
+  - cabal install hakyll
 script:
-- make build
+  - make build
 after_success:
-- git config --global user.name "λ-Wolf bot"
-- git config --global user.email info@functionalvilnius.lt
-- ' [ "${TRAVIS_PULL_REQUEST}" = "false" ] && make commit upload 2>&1 | sed -r "s|https://(.*)@|https://{{SECRET}}@|g" '
+  - git config --global user.name "λ-Wolf bot"
+  - git config --global user.email info@functionalvilnius.lt
+  - ' [ "${TRAVIS_PULL_REQUEST}" = "false" ] && make commit upload 2>&1 | sed -r "s|https://(.*)@|https://{{SECRET}}@|g" '
