@@ -18,13 +18,13 @@ script:
   - make build
 
 before_deploy:
-  - tar cf cabal-sandbox.tar.gz .cabal-sandbox/ cabal.sandbox.config
+  - XZ_OPT="-9" tar caf cabal-sandbox.tar.lzma .cabal-sandbox/ cabal.sandbox.config
 deploy:
   provider: releases
   api_key:
       secure: "Cf3npZ4C9Vseog2IUAapL5HF7oV4QvWOD19cOyWmUJqwqD5Ejl0LyIoQUx/j2/PMCxAyZKYy7NM6N79UmHmB/+Sl/boQ5YrJ5xwDmaEcAdc5tc0Rca4OOpSXsYSY8fMSqMIZZ+sujkbebtXN6vj40wKbA4E5D6FeKUQFI3/pzxI="
   skip_cleanup: true
-  file: cabal-sandbox.tar.gz
+  file: cabal-sandbox.tar.lzma
   on:
       tags: false
       all_branches: true
