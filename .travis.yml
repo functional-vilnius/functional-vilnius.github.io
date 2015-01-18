@@ -24,6 +24,6 @@ deploy:
   skip_cleanup: true
   file: cabal-sandbox.tar.gz
   on:
-      tags: true
+      tags: false
       all_branches: true
       branch: source
