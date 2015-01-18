@@ -6,7 +6,7 @@ branches:
 env:
   global:
     - secure: "fkytTKJVcJZUW5OTYcKW5D3/hQTwgqfKkguA0nbpqan+1q4amyovAxJLxBPgIn/snyNZV1b7jgwN3TExRUjE0mf0O0tqo9/X5Yg/t+HfpwN2aCDVEmd+7z1jea8GliVNesiamvZfFeaaYzzlNu0zkdf9o0nkHETKY2d/j++jM6Q="
-    - CABAL_FLAGS="-j --disable-documentation --disable-tests --reorder-goals
+    - CABAL_FLAGS="-v3 -j --disable-documentation --disable-tests --reorder-goals
         --disable-library-profiling --disable-library-coverage --enable-library-vanilla
         --disable-library-for-ghci --disable-benchmarks --enable-split-objs
         --enable-shared"
@@ -18,7 +18,7 @@ script:
   - make build
 
 before_deploy:
-  - XZ_OPT="-9" tar caf cabal-sandbox.tar.lzma .cabal-sandbox/ cabal.sandbox.config
+  - XZ_OPT="-9" tar cavf cabal-sandbox.tar.lzma .cabal-sandbox/ cabal.sandbox.config
 deploy:
   provider: releases
   api_key:
