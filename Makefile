@@ -10,11 +10,11 @@ build:
 
 $(GEN_TARGET_DIR): build
 
+## Used by TravisCI
+
 $(SUBMODULE_DIR):
 	git submodule update --init --remote
 	git submodule foreach git checkout master
-
-## Used by TravisCI
 
 commit: $(SUBMODULE_DIR) | $(GEN_TARGET_DIR) $(CNAME)
 	cp -r $(GEN_TARGET_DIR)/* $(SUBMODULE_DIR)
