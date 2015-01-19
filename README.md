@@ -1,6 +1,8 @@
 Functional Vilnius web
 ======================
 
+[![Build Status](https://travis-ci.org/functional-vilnius/functional-vilnius.github.io.svg?branch=source)](https://travis-ci.org/functional-vilnius/functional-vilnius.github.io)
+
 This repo holds the sources of [http://functionalvilnius.lt](http://functionalvilnius.lt).
 
 The website is built using [Hakyll](http://jaspervdj.be/hakyll/).
@@ -16,7 +18,9 @@ and
 
 The default branch is `source` (not `master`!), which contains the website
 source.
-When you push to `source`, a Travis CI hook builds the website using Hakyll
+When you push to `source`, a
+[Travis CI](https://travis-ci.org/functional-vilnius/functional-vilnius.github.io/builds)
+hook builds the website using Hakyll
 and pushes the artifacts to the
 [master](https://github.com/functional-vilnius/functional-vilnius.github.io/tree/master)
 branch. See the [.travis.yml](.travis.yml) config file for details.
