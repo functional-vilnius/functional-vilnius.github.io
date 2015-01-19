@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Functional Vilnius Posts</title>
+        <link>http://functionalvilnius.lt</link>
+        <description><![CDATA[Blog posts and announcements on Functional Vilnius]]></description>
+        <atom:link href="http://functionalvilnius.lt/feed.xml" rel="self"
+                   type="application/rss+xml" />
+        <lastBuildDate>Fri, 16 Jan 2015 00:00:00 UT</lastBuildDate>
+        <item>
+    <title>Functional Vilnius website is live!</title>
+    <link>http://functionalvilnius.lt/posts/2015-01-16-functional-vilnius-is-born.html</link>
+    <description><![CDATA[<div class="info">
+    Posted on January 16, 2015
+    
+        by Ignas
+    
+</div>
+
+<p>Stay tuned, more information soon.</p>
+]]></description>
+    <pubDate>Fri, 16 Jan 2015 00:00:00 UT</pubDate>
+    <guid>http://functionalvilnius.lt/posts/2015-01-16-functional-vilnius-is-born.html</guid>
+</item>
+
+    </channel> 
+</rss>
