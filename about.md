@@ -2,4 +2,4 @@
 title: About
 ---
 
-Stub.
+*Functional Vilnius* is about functional programming and lambdas. 
