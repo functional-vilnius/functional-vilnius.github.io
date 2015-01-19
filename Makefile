@@ -21,10 +21,10 @@ commit: $(SUBMODULE_DIR) | $(GEN_TARGET_DIR) $(CNAME)
 	cp $(CNAME) $(SUBMODULE_DIR)
 	cd $(SUBMODULE_DIR) && \
 		git add -A && \
+		git diff --cached --quiet --exit-code || ( \
 		git commit \
-			--allow-empty \
 			-m "Build $$(TZ='Europe/Vilnius' date --rfc-3339=seconds)" && \
-		git push ../ master:master # avoid diverging
+		git push ../ master:master) # avoid diverging
 
 upload: | $(SUBMODULE_DIR)
 	@test ${GH_TOKEN} || (echo "Error: Github Token missing!" && exit 1)
