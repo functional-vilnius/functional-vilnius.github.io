@@ -25,6 +25,7 @@ main = hakyll $ do
         route $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
+            >>= saveSnapshot "postContent"
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
@@ -42,6 +43,13 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
+    create ["feed.xml"] $ do
+        route idRoute
+        compile $ do
+            let feedCtx = postCtx `mappend` bodyField "description"
+            posts <- recentFirst =<<
+                loadAllSnapshots "posts/*" "postContent"
+            renderRss feedConfig feedCtx posts
 
     match "index.html" $ do
         route idRoute
@@ -65,3 +73,12 @@ postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
+
+feedConfig :: FeedConfiguration
+feedConfig = FeedConfiguration {
+    feedTitle       = "Functional Vilnius Posts",
+    feedDescription = "Blog posts and announcements on Functional Vilnius",
+    feedAuthorName  = "Functional Vilnius",
+    feedAuthorEmail = "info@functionalvilnius.lt",
+    feedRoot        = "http://functionalvilnius.lt"
+    }
