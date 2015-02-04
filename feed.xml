@@ -6,8 +6,31 @@
         <description><![CDATA[Blog posts and announcements on Functional Vilnius]]></description>
         <atom:link href="http://functionalvilnius.lt/feed.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Fri, 16 Jan 2015 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Feb 2015 00:00:00 UT</lastBuildDate>
         <item>
+    <title>First meetup announcement</title>
+    <link>http://functionalvilnius.lt/posts/2015-02-04-first-meetup.html</link>
+    <description><![CDATA[<div class="info">
+    Posted on February  4, 2015
+    
+        by Ignas
+    
+</div>
+
+<p>We are hyped to announce our first meetup!</p>
+<p>It will happen on February 25, 19:00, at <a href="http://adform.com/">AdForm</a> offices, who kindly volunteered to host this meeting.</p>
+<p>There will be two talks:</p>
+<ul>
+<li><strong>“Functional Programming: facts and myths”</strong> by <a href="https://twitter.com/yfyf">Ignas Vyšniauskas</a></li>
+<li><strong>“FP in Industry”</strong> by <a href="https://twitter.com/poznia">Viačeslav Pozdniakov</a>, AdForm</li>
+</ul>
+<p>We also plan to have a small discussion session afterwards to find out about your interests in FP and expectations of future meetups, so be sure to attend and let your opinion be known!</p>
+<p>Read the full description and RSVP in the <a href="http://www.meetup.com/functional-vilnius/events/220011099/">meetup.com event</a>.</p>
+]]></description>
+    <pubDate>Wed, 04 Feb 2015 00:00:00 UT</pubDate>
+    <guid>http://functionalvilnius.lt/posts/2015-02-04-first-meetup.html</guid>
+</item>
+<item>
     <title>Functional Vilnius website is live!</title>
     <link>http://functionalvilnius.lt/posts/2015-01-16-functional-vilnius-is-born.html</link>
     <description><![CDATA[<div class="info">
