@@ -6,8 +6,31 @@
         <description><![CDATA[Blog posts and announcements on Functional Vilnius]]></description>
         <atom:link href="http://functionalvilnius.lt/feed.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Wed, 04 Feb 2015 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Mar 2015 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Slides from the first meetup, call for speakers</title>
+    <link>http://functionalvilnius.lt/posts/2015-03-01-slides-and-notes-from-first-meetup.html</link>
+    <description><![CDATA[<div class="info">
+    Posted on March  1, 2015
+    
+        by Ignas
+    
+</div>
+
+<p>Thank you once again to everyone who attended our first meetup – we had a blast!</p>
+<p>Here are the slides from the meetup:</p>
+<ul>
+<li><a href="http://yfyf.github.io/talks/2015-02-25-functional-vilnius-talk/slides.html#/">Functional Programming: facts and myths</a> by <a href="https://twitter.com/yfyf">Ignas Vyšniauskas</a></li>
+<li><a href="http://vipo.github.io/industry-fp/">FP in Industry</a> by <a href="https://twitter.com/poznia">Viačeslav Pozdniakov</a>, Adform</li>
+</ul>
+<p>We are looking for speakers for the next meetup, so get in touch if you want to talk about anything FP or type-driven development related.</p>
+<p>Finally, if you want to host, sponsor or help with organizing the meetups then we definitely want to hear from you.</p>
+<p>P.S. We now also have a <a href="https://www.linkedin.com/groups/Functional-Vilnius-6947548">LinkedIn group</a> – join us there!</p>
+]]></description>
+    <pubDate>Sun, 01 Mar 2015 00:00:00 UT</pubDate>
+    <guid>http://functionalvilnius.lt/posts/2015-03-01-slides-and-notes-from-first-meetup.html</guid>
+</item>
+<item>
     <title>First meetup announcement</title>
     <link>http://functionalvilnius.lt/posts/2015-02-04-first-meetup.html</link>
     <description><![CDATA[<div class="info">
