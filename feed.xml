@@ -6,8 +6,37 @@
         <description><![CDATA[Blog posts and announcements on Functional Vilnius]]></description>
         <atom:link href="http://functionalvilnius.lt/feed.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Sun, 01 Mar 2015 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Mar 2015 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Functional Vilnius #𝟚 (+Vilnius JUG!): monads and immutable objects</title>
+    <link>http://functionalvilnius.lt/posts/2015-03-06-meetup-2-announcement.html</link>
+    <description><![CDATA[<div class="info">
+    Posted on March  6, 2015
+    
+        by Ignas
+    
+</div>
+
+<p>Hi functionalists,</p>
+<p>Guess what, we have another meetup ready for you. Sticking with our goals to spread cross-community collaboration, this will be a joint meetup together with <a href="http://vilnius-jug.lt/">Vilnius JUG</a>!</p>
+<ul>
+<li>Date: <em>Wednesday, March 25, 19:00</em></li>
+<li>Place: <em>Swedbank HQ, Konstitucijos pr. 20A (entry from the riverside)</em></li>
+<li>Map: <a href="https://goo.gl/maps/D7dm4" class="uri">https://goo.gl/maps/D7dm4</a></li>
+</ul>
+<p>The date is ‘the same’ as last time – last Wednesday of the month. We’ll try to stick to this regular schedule from now on.</p>
+<p>There will be two very exciting talks:</p>
+<ul>
+<li><em>“Everything you wanted to know about monads, but were afraid to ask”</em><br /><a href="https://www.linkedin.com/in/rolandasgriskevicius">Rolandas Griškevičius</a> (Swedbank / VGTU) will give a beginner friendly and very pragmatic introduction to the notorious things called monads. Expect some Ocaml, magic and even a bit of Java (7).</li>
+<li><em>“Quest for composable immutable objects”</em><br /><a href="http://arturaz.net">Artūras Šlajus</a> (Tiny Lab Productions) will present how to compose objects from parts with inheritance in a purely functional world using Scala. Some advanced type hackery in this one, so be prepared.</li>
+</ul>
+<p>Read the full description and RSVP in the <a href="http://www.meetup.com/functional-vilnius/events/220941674/">meetup.com event</a>.</p>
+<p>See you in a couple of weeks!</p>
+]]></description>
+    <pubDate>Fri, 06 Mar 2015 00:00:00 UT</pubDate>
+    <guid>http://functionalvilnius.lt/posts/2015-03-06-meetup-2-announcement.html</guid>
+</item>
+<item>
     <title>Slides from the first meetup, call for speakers</title>
     <link>http://functionalvilnius.lt/posts/2015-03-01-slides-and-notes-from-first-meetup.html</link>
     <description><![CDATA[<div class="info">
