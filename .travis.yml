@@ -7,7 +7,7 @@ env:
   global:
     - secure: "fkytTKJVcJZUW5OTYcKW5D3/hQTwgqfKkguA0nbpqan+1q4amyovAxJLxBPgIn/snyNZV1b7jgwN3TExRUjE0mf0O0tqo9/X5Yg/t+HfpwN2aCDVEmd+7z1jea8GliVNesiamvZfFeaaYzzlNu0zkdf9o0nkHETKY2d/j++jM6Q="
 install:
-  - curl -L https://github.com/functional-vilnius/functional-vilnius.github.io/releases/download/cabal-sandbox-ghc-7.8.4/cabal-sandbox.tar.lzma | tar --lzma -x
+  - set -o pipefail && travis_retry curl -L https://github.com/functional-vilnius/functional-vilnius.github.io/releases/download/cabal-sandbox-ghc-7.8.4/cabal-sandbox.tar.lzma | tar --lzma -x
 script:
   - make build
   - git config --global user.name "λ-Wolf bot"
