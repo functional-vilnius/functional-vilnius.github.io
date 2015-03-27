@@ -3,7 +3,7 @@ SITE_GIT_DIR=$(GEN_TARGET_DIR).git
 CNAME=CNAME
 REMOTE=github.com/functional-vilnius/functional-vilnius.github.io
 
-.PHONY: build commit upload $(SITE_GIT_DIR)
+.PHONY: build commit upload
 
 build:
 	cabal run rebuild
@@ -16,7 +16,7 @@ $(SITE_GIT_DIR):
 	git fetch origin master:master
 	git clone -b master . $@
 
-commit: $(SITE_GIT_DIR) | $(GEN_TARGET_DIR) $(CNAME)
+commit: | $(SITE_GIT_DIR) $(GEN_TARGET_DIR) $(CNAME)
 	cp -r $(GEN_TARGET_DIR)/* $(SITE_GIT_DIR)
 	cp $(CNAME) $(SITE_GIT_DIR)
 	cd $(SITE_GIT_DIR) && \
