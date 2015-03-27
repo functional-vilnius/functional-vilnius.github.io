@@ -14,7 +14,7 @@ $(GEN_TARGET_DIR): build
 
 $(SITE_GIT_DIR):
 	git fetch origin master:master
-	git clone -b master . $@
+	git clone --single-branch -b master . $@
 
 commit: | $(SITE_GIT_DIR) $(GEN_TARGET_DIR) $(CNAME)
 	cp -r $(GEN_TARGET_DIR)/* $(SITE_GIT_DIR)
