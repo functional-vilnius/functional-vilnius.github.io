@@ -6,8 +6,34 @@
         <description><![CDATA[Blog posts and announcements on Functional Vilnius]]></description>
         <atom:link href="http://functionalvilnius.lt/feed.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Fri, 06 Mar 2015 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Mar 2015 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Second meetup happened, slides are here, some announcements</title>
+    <link>http://functionalvilnius.lt/posts/2015-03-25-second-meetup-slides.html</link>
+    <description><![CDATA[<div class="info">
+    Posted on March 25, 2015
+    
+        by Ignas
+    
+</div>
+
+<h2 id="thanks">Thanks</h2>
+<p>First of all, thanks to our speakers Rolandas Griškevičius and Artūras Šlajus for presenting and trying to teach us something.</p>
+<p>Also, thanks to all of you who attended and Vilnius JUG organizers for good cooperation.</p>
+<p>The slides from the last meetup are up:</p>
+<ul>
+<li><a href="/meetups/meetups/2015-03-25-functional-vilnius-02/rolandas-monads.pdf">Everything you wanted to know about monads, but were afraid to ask (PDF)</a>, Rolandas Griškevičius</li>
+<li><a href="http://slides.com/arturasslajus/quest-for-composable-immutable-objects#/">Quest for composable immutable objects</a> (<em>or use the <a href="/meetups/meetups/2015-03-25-functional-vilnius-02/arturas-slajus/">local mirror</a></em>), Artūras Šlajus</li>
+</ul>
+<h2 id="next-meetup-future-stuff">Next meetup / future stuff</h2>
+<p>Our (next) April meetup will be again on the last Wednesday of the month, this will be April 29th.</p>
+<p>We already have one speaker scheduled, <a href="https://twitter.com/clayrat">Alexander Gryzlov</a> will talk about “Free monads” in Scala(z).</p>
+<p>There have been suggestions to do a session of lightning talks, so if you are interested in dropping a 5-15 min lightning talk, contact us.</p>
+]]></description>
+    <pubDate>Wed, 25 Mar 2015 00:00:00 UT</pubDate>
+    <guid>http://functionalvilnius.lt/posts/2015-03-25-second-meetup-slides.html</guid>
+</item>
+<item>
     <title>Functional Vilnius #𝟚 (+Vilnius JUG!): monads and immutable objects</title>
     <link>http://functionalvilnius.lt/posts/2015-03-06-meetup-2-announcement.html</link>
     <description><![CDATA[<div class="info">
