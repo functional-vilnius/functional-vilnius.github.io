@@ -13,3 +13,6 @@ as possible.
 
 If you want to help with organisation, be a speaker or just say hi, [get in
 touch](contact.html).
+
+We also try our best to support diversity, please consult our [Code of
+Conduct](code-of-conduct.html) for details.
