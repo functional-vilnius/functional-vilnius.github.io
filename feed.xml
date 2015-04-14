@@ -6,8 +6,47 @@
         <description><![CDATA[Blog posts and announcements on Functional Vilnius]]></description>
         <atom:link href="http://functionalvilnius.lt/feed.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Mon, 13 Apr 2015 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Apr 2015 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Functional Vilnius #3: Living without Objects and with Free Monads</title>
+    <link>http://functionalvilnius.lt/posts/2015-04-14-3rd-meetup-announcement.html</link>
+    <description><![CDATA[<div class="info">
+    Posted on April 14, 2015
+    
+        by Ignas
+    
+</div>
+
+<p>Hi friends,</p>
+<p>The end of the month is near and so is our next meetup.</p>
+<h2 id="date-and-venue">Date and venue</h2>
+<ul>
+<li>Date: <em>Wednesday, April 29, 19:00</em></li>
+<li>Place: <em>Adform, 5th floor, J. Jasinskio g. 16C</em></li>
+<li>Map: <a href="https://goo.gl/maps/mAo0f" class="uri">https://goo.gl/maps/mAo0f</a></li>
+</ul>
+<h2 id="some-announcements">Some announcements</h2>
+<ul>
+<li>We <a href="2015-04-13-0-our-code-of-conduct.html">now have a Code of Conduct</a>, please read it and respect it.</li>
+<li>We’ll be handing out stickers, which look like this:<br /><img src="/img/stickers.jpg" alt="Ooh, fresh stickers" /></li>
+<li>We have spots for some lightning talks? Want to give one? Write to us.</li>
+</ul>
+<h2 id="speakers-and-talks">Speakers and talks</h2>
+<h3 id="free-monads-alexander-gryzlov-adform"><em>“Free Monads”</em>, <a href="https://twitter.com/clayrat">Alexander Gryzlov</a>, Adform</h3>
+<p>In the <a href="2015-03-25-second-meetup-slides.html">previous meetup</a>, Rolandas has warmed you up with the monad introduction and now it’s time for something more. Alex will present the very cool concept of Free Monads in Scala.</p>
+<p>For homework reading:</p>
+<ul>
+<li>Excellent blog post on the topic (though in Haskell):<br /> <a href="http://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html" class="uri">http://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html</a></li>
+<li>Pretty much the same thing as above, but translated to Scala(z):<br /> <a href="http://eed3si9n.com/learning-scalaz/Free+Monad.html" class="uri">http://eed3si9n.com/learning-scalaz/Free+Monad.html</a></li>
+</ul>
+<h3 id="living-without-objects-osvaldas-grigas-inventi"><em>“Living without Objects”</em>, <a href="http://www.ogrigas.eu/">Osvaldas Grigas</a>, Inventi</h3>
+<p>Abstract: “Transitioning from OOP to FP can be quite challenging, not least because OO programmers are not used to thinking in terms of verbs instead of nouns. Non-hybrid functional languages do not allow falling back to class hierarchies, so one is forced to learn to think in terms of verbs and find other ways of doing polymorphism and composition. We’ll investigate some examples of that in Clojure.”</p>
+<p>Read the full description and RSVP in the <a href="http://www.meetup.com/functional-vilnius/events/221412574/">meetup.com event</a>.</p>
+]]></description>
+    <pubDate>Tue, 14 Apr 2015 00:00:00 UT</pubDate>
+    <guid>http://functionalvilnius.lt/posts/2015-04-14-3rd-meetup-announcement.html</guid>
+</item>
+<item>
     <title>Announcing our Code of Conduct</title>
     <link>http://functionalvilnius.lt/posts/2015-04-13-0-our-code-of-conduct.html</link>
     <description><![CDATA[<div class="info">
