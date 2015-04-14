@@ -63,9 +63,7 @@ Participants asked to stop any harassing behavior are expected to comply
 immediately.
 
 Contributors to the GitHub repository, the Meetup and/or event-related sites,
-sponsors, or similar are also subject to the anti-harassment policy. Organizers
-(including volunteers) should not use sexualized clothing/uniforms/costumes, or
-otherwise create a sexualized environment.
+sponsors, or similar are also subject to the anti-harassment policy.
 
 
 References
