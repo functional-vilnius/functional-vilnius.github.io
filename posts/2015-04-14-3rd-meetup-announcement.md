@@ -18,7 +18,7 @@ The end of the month is near and so is our next meetup.
 * We [now have a Code of Conduct](2015-04-13-0-our-code-of-conduct.html), please read it and respect it.
 * We'll be handing out stickers, which look like this:\
 ![Ooh, fresh stickers](/img/stickers.jpg)
-* We have spots for some lightning talks? Want to give one? Write to us.
+* We have spots for some lightning talks. Want to give one? Write to us.
 
 
 ## Speakers and talks
