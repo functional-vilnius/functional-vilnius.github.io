@@ -6,8 +6,25 @@
         <description><![CDATA[Blog posts and announcements on Functional Vilnius]]></description>
         <atom:link href="http://functionalvilnius.lt/feed.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Wed, 25 Mar 2015 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Apr 2015 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Announcing our Code of Conduct</title>
+    <link>http://functionalvilnius.lt/posts/2015-04-13-0-our-code-of-conduct.html</link>
+    <description><![CDATA[<div class="info">
+    Posted on April 13, 2015
+    
+        by Ignas
+    
+</div>
+
+<p>We sincerely wish to grow Functional Vilnius into an open and diverse community where people with any kind of backgrounds can freely collaborate and discuss FP ideas. In order to achieve this and ensure that our meetups are safe and harassment-free, we have written up a <a href="/code-of-conduct.html">Code of Conduct</a>.</p>
+<p>We ask you to read through it very careful and conform to the CoC rules in all future meetups and online collaboration. Note that there will be no exemptions to the CoC and we encourage you, as participants, to help actively enforce the CoC alongside with the organizers.</p>
+<p>If you have some suggestions on how to improve the Code of Conduct, we would love to hear about it. Thanks for being a part of the community!</p>
+]]></description>
+    <pubDate>Mon, 13 Apr 2015 00:00:00 UT</pubDate>
+    <guid>http://functionalvilnius.lt/posts/2015-04-13-0-our-code-of-conduct.html</guid>
+</item>
+<item>
     <title>Second meetup happened, slides are here, some announcements</title>
     <link>http://functionalvilnius.lt/posts/2015-03-25-second-meetup-slides.html</link>
     <description><![CDATA[<div class="info">
