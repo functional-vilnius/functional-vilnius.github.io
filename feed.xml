@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>Functional Vilnius Posts</title>
         <link>http://functionalvilnius.lt</link>
@@ -45,6 +46,7 @@
 ]]></description>
     <pubDate>Tue, 14 Apr 2015 00:00:00 UT</pubDate>
     <guid>http://functionalvilnius.lt/posts/2015-04-14-3rd-meetup-announcement.html</guid>
+    <dc:creator>Functional Vilnius</dc:creator>
 </item>
 <item>
     <title>Announcing our Code of Conduct</title>
@@ -62,6 +64,7 @@
 ]]></description>
     <pubDate>Mon, 13 Apr 2015 00:00:00 UT</pubDate>
     <guid>http://functionalvilnius.lt/posts/2015-04-13-0-our-code-of-conduct.html</guid>
+    <dc:creator>Functional Vilnius</dc:creator>
 </item>
 <item>
     <title>Second meetup happened, slides are here, some announcements</title>
@@ -88,6 +91,7 @@
 ]]></description>
     <pubDate>Wed, 25 Mar 2015 00:00:00 UT</pubDate>
     <guid>http://functionalvilnius.lt/posts/2015-03-25-second-meetup-slides.html</guid>
+    <dc:creator>Functional Vilnius</dc:creator>
 </item>
 <item>
     <title>Functional Vilnius #𝟚 (+Vilnius JUG!): monads and immutable objects</title>
@@ -117,6 +121,7 @@
 ]]></description>
     <pubDate>Fri, 06 Mar 2015 00:00:00 UT</pubDate>
     <guid>http://functionalvilnius.lt/posts/2015-03-06-meetup-2-announcement.html</guid>
+    <dc:creator>Functional Vilnius</dc:creator>
 </item>
 <item>
     <title>Slides from the first meetup, call for speakers</title>
@@ -140,6 +145,7 @@
 ]]></description>
     <pubDate>Sun, 01 Mar 2015 00:00:00 UT</pubDate>
     <guid>http://functionalvilnius.lt/posts/2015-03-01-slides-and-notes-from-first-meetup.html</guid>
+    <dc:creator>Functional Vilnius</dc:creator>
 </item>
 <item>
     <title>First meetup announcement</title>
@@ -163,6 +169,7 @@
 ]]></description>
     <pubDate>Wed, 04 Feb 2015 00:00:00 UT</pubDate>
     <guid>http://functionalvilnius.lt/posts/2015-02-04-first-meetup.html</guid>
+    <dc:creator>Functional Vilnius</dc:creator>
 </item>
 <item>
     <title>Functional Vilnius website is live!</title>
@@ -178,7 +185,8 @@
 ]]></description>
     <pubDate>Fri, 16 Jan 2015 00:00:00 UT</pubDate>
     <guid>http://functionalvilnius.lt/posts/2015-01-16-functional-vilnius-is-born.html</guid>
+    <dc:creator>Functional Vilnius</dc:creator>
 </item>
 
-    </channel> 
+    </channel>
 </rss>
