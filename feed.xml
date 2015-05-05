@@ -6,8 +6,37 @@
         <description><![CDATA[Blog posts and announcements on Functional Vilnius]]></description>
         <atom:link href="http://functionalvilnius.lt/feed.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Tue, 14 Apr 2015 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Tue, 05 May 2015 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Third meetup slides, survey (!), next meetup announcement</title>
+    <link>http://functionalvilnius.lt/posts/2015-05-05-3rd-meetup-slides-and-survey.html</link>
+    <description><![CDATA[<div class="info">
+    Posted on May  5, 2015
+    
+        by Ignas
+    
+</div>
+
+<p>Thanks to everyone for making the 3rd Functional Vilnius meetup happen! It’s very exciting to see continued interest in FP ideas.</p>
+<h2 id="slides">Slides</h2>
+<p>Here are the slides from the last meetup</p>
+<ul>
+<li><a href="/meetups/meetups/2015-04-29-functional-vilnius-03/freemonads.pdf">Free monads</a>, Alexander Gryzlov</li>
+<li><a href="http://ogrigas.github.io/living-without-objects/">Living without Objects</a>, Osvaldas Grigas</li>
+</ul>
+<h2 id="survey">Survey</h2>
+<p>Very-pretty-please fill-in our (short!) <a href="http://goo.gl/mvnkjK">survey</a>. This will help us improve the future meetups by understanding your background and expectations.</p>
+<h2 id="next-meetup">Next meetup</h2>
+<p>Next meetup is, as always, last Wednesday of the month, May 27th.<br />We’ll have two talks as usual:</p>
+<h4 id="introduction-to-rust-by-nerijus-arlauskas-nercury"><em>“Introduction to Rust”</em> by Nerijus Arlauskas (<a href="https://twitter.com/nercury">@nercury</a>)</h4>
+<p>Rust 1.0 stable will be released on May 15th. To celebrate, Nerijus will give you a brief introduction to Rust, explaining its main features, why people call it “the C++ killer” and how, under the hood, it’s really a functional language.</p>
+<h4 id="monoids-and-friends-by-saulius-valatka-saulius_vl"><em>“Monoids and friends”</em> by Saulius Valatka (<a href="https://twitter.com/saulius_vl">@saulius_vl</a>)</h4>
+<p>Saulius Valatka will continue our journey of exploring algebraic structures in programming. This time, we hit the ubiquitous monoids. More info soon.</p>
+]]></description>
+    <pubDate>Tue, 05 May 2015 00:00:00 UT</pubDate>
+    <guid>http://functionalvilnius.lt/posts/2015-05-05-3rd-meetup-slides-and-survey.html</guid>
+</item>
+<item>
     <title>Functional Vilnius #3: Living without Objects and with Free Monads</title>
     <link>http://functionalvilnius.lt/posts/2015-04-14-3rd-meetup-announcement.html</link>
     <description><![CDATA[<div class="info">
