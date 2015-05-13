@@ -32,9 +32,10 @@ We'll have two talks as usual:
 #### *"Introduction to Rust"* by Nerijus Arlauskas ([\@nercury](https://twitter.com/nercury))
 
 Rust 1.0 stable will be released on May 15th. To celebrate, Nerijus will give
-you a brief introduction to Rust, explaining its main features, why people
-call it "the C++ killer" and how, under the hood, it's really  a functional
-language.
+you a brief introduction to Rust, explain its safe low level control mechanism,
+type system, and some reasons it is easier to understand from functional point
+of view.
+
 
 #### *"Monoids and friends"* by Saulius Valatka ([\@saulius_vl](https://twitter.com/saulius_vl))
 
