@@ -6,8 +6,33 @@
         <description><![CDATA[Blog posts and announcements on Functional Vilnius]]></description>
         <atom:link href="http://functionalvilnius.lt/feed.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Tue, 05 May 2015 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Sat, 23 May 2015 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Fourth meetup details</title>
+    <link>http://functionalvilnius.lt/posts/2015-05-23-fourth-meetup.html</link>
+    <description><![CDATA[<div class="info">
+    Posted on May 23, 2015
+    
+        by Slava
+    
+</div>
+
+<h2 id="survey">Survey</h2>
+<p>Well… once again, please please fill-in our <a href="http://goo.gl/mvnkjK">survey</a>. We already have some preliminary results but still need some more data. Sure we will discuss the results with community.</p>
+<h2 id="meetup-details">Meetup details</h2>
+<p>This time we meet on Wednesday, 27th of May this time <strong><em>in Wix office</em></strong> (<a href="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=R%C5%ABdnink%C5%B3+g.+2,+Vilnius,+Vilnius+County,+Lithuania&amp;aq=t&amp;sll=37.0625,-95.677068&amp;sspn=49.624204,107.138672&amp;vpsrc=6&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=R%C5%ABdnink%C5%B3+gatv%C4%97+2,+Vilnius,+Vilniaus+miesto+savivaldyb%C4%97+01135,+Lithuania&amp;ll=54.677634,25.286654&amp;spn=0.00223,0.006539&amp;z=18&amp;iwloc=A">Rūdninkų g. 2</a>) at 19:00.</p>
+<p>Please RSVP the meeting <a href="http://www.meetup.com/functional-vilnius/events/222319383/">here</a>.</p>
+<h2 id="talks">Talks</h2>
+<h4 id="introduction-to-rust-by-nerijus-arlauskas-nercury"><em>“Introduction to Rust”</em> by Nerijus Arlauskas (<a href="https://twitter.com/nercury">@nercury</a>)</h4>
+<p>Nerijus will give us a brief introduction to Rust (which is finally released), explain its safe low level control mechanism, type system, and some reasons it is easier to understand from functional point of view.</p>
+<h4 id="monoids-and-friends-by-saulius-valatka-saulius_vl"><em>“Monoids and friends”</em> by Saulius Valatka (<a href="https://twitter.com/saulius_vl">@saulius_vl</a>)</h4>
+<p>Saulius Valatka will continue our journey of exploring algebraic structures in programming. Here’s his abstract:</p>
+<p><em>“In this talk we will take a step back and focus on the simplest algebraic structures out there: monoids and their friends like semigroups etc. We will demonstrate how natural and ubiquitous they are in real life using tons of examples.”</em></p>
+]]></description>
+    <pubDate>Sat, 23 May 2015 00:00:00 UT</pubDate>
+    <guid>http://functionalvilnius.lt/posts/2015-05-23-fourth-meetup.html</guid>
+</item>
+<item>
     <title>Third meetup slides, survey (!), next meetup announcement</title>
     <link>http://functionalvilnius.lt/posts/2015-05-05-3rd-meetup-slides-and-survey.html</link>
     <description><![CDATA[<div class="info">
