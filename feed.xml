@@ -6,8 +6,37 @@
         <description><![CDATA[Blog posts and announcements on Functional Vilnius]]></description>
         <atom:link href="http://functionalvilnius.lt/feed.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Sat, 23 May 2015 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Jun 2015 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Fourth meetup slides and next meetup announcement</title>
+    <link>http://functionalvilnius.lt/posts/2015-06-10-4th-slides-and-announcement.html</link>
+    <description><![CDATA[<div class="info">
+    Posted on June 10, 2015
+    
+        by Slava
+    
+</div>
+
+<p>Thank you for comming to 4th Functional Vilnius meetup!</p>
+<h2 id="slides">Slides</h2>
+<p>Here are the slides from the last meetup:</p>
+<ul>
+<li><p><a href="http://slides.com/nercury/rust">Introduction to Rust</a>, Nerijus Arlauskas</p></li>
+<li><p><a href="/meetups/meetups/2015-05-23-functional-vilnius-04/monoids.pdf">Monoids and friends</a>, Saulius Valatka</p></li>
+</ul>
+<h2 id="next-meetup">Next meetup</h2>
+<p>Next meetup is <em>on Thursday</em>, June 25th.</p>
+<p>Please RSVP the meeting <a href="http://www.meetup.com/functional-vilnius/events/223087132/">here</a>.</p>
+<p>Two talks are planed:</p>
+<ul>
+<li><p>Gytis Žilinskas will talk about Generalized Algebraic Datatypes. Don’t be scared: we have heard rumors that talk will be somehow related to gamedev and other really cool stuff.</p></li>
+<li><p>Viačeslav Pozdniakov “Real world property testing”</p></li>
+</ul>
+]]></description>
+    <pubDate>Wed, 10 Jun 2015 00:00:00 UT</pubDate>
+    <guid>http://functionalvilnius.lt/posts/2015-06-10-4th-slides-and-announcement.html</guid>
+</item>
+<item>
     <title>Fourth meetup details</title>
     <link>http://functionalvilnius.lt/posts/2015-05-23-fourth-meetup.html</link>
     <description><![CDATA[<div class="info">
