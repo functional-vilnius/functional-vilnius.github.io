@@ -6,8 +6,37 @@
         <description><![CDATA[Blog posts and announcements on Functional Vilnius]]></description>
         <atom:link href="http://functionalvilnius.lt/feed.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Wed, 10 Jun 2015 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Oct 2015 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Function Vilnius is back from holidays, get ready for meetup #6</title>
+    <link>http://functionalvilnius.lt/posts/2015-10-03-6th-meetup-announcement.html</link>
+    <description><![CDATA[<div class="info">
+    Posted on October  3, 2015
+    
+        by Ignas
+    
+</div>
+
+<p>Hi functional people!</p>
+<p>Hope you had a nice summer and your mind is clear, fresh and open for new ideas, because we return to drop some knowledge. We are very excited to invite you to our next meetup!</p>
+<h2 id="datelocation">Date/location</h2>
+<p>Date: Wednesday, October 21st.</p>
+<p>Location: Adform (new) office, Sporto g. 18, Vilnius</p>
+<p>Please RSVP <a href="http://www.meetup.com/functional-vilnius/events/223570957/">here</a>.</p>
+<h2 id="talks">Talks</h2>
+<h3 id="golang-from-scala-developers-perspective-by-svetlana-bozhko">“Golang from Scala developer’s perspective” by <a href="https://twitter.com/sbozhko"><em>Svetlana Bozhko</em></a></h3>
+<blockquote>
+<p>Golang is becoming more and more popular. Most likely many of you have heard of its upgraded garbage collector and possibilities to work with lightweight threads – goroutines. Obviously, Golang is quite a good choice for server-side software oriented on a huge load. As Scala backend developer, I am a big fan of functional programming and actor model. Golang seems very promising, but from the first glance, its a totally imperative language. In my speech I’m going to tell about my experiments with Golang and attempt to use it as a functional language.</p>
+</blockquote>
+<h3 id="a-look-through-the-lens-by-alex-gryzlov">“A look through the lens” by <a href="https://twitter.com/clayrat"><em>Alex Gryzlov</em></a></h3>
+<blockquote>
+<p>What is bidirectional programming? Are lenses coalgebras or profunctors? Is any of this mumbo-jumbo remotely useful? Let’s try to figure out together! 🐮</p>
+</blockquote>
+]]></description>
+    <pubDate>Sat, 03 Oct 2015 00:00:00 UT</pubDate>
+    <guid>http://functionalvilnius.lt/posts/2015-10-03-6th-meetup-announcement.html</guid>
+</item>
+<item>
     <title>Fourth meetup slides and next meetup announcement</title>
     <link>http://functionalvilnius.lt/posts/2015-06-10-4th-slides-and-announcement.html</link>
     <description><![CDATA[<div class="info">
