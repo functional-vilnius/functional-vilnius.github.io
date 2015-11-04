@@ -12,9 +12,18 @@ $(GEN_TARGET_DIR): build
 
 ## Used by TravisCI
 
+ifdef TRAVIS
+TRAVIS_LIMIT_DEPTH=--depth=5
+endif
+
 $(SITE_GIT_DIR):
 	git fetch origin master:master
-	git clone --single-branch -b master . $@
+	git clone \
+		$(TRAVIS_LIMIT_DEPTH) \
+		--single-branch \
+		 -b master \
+		 "file://$(abspath $(dir $@))" \
+		  $@
 
 commit: | $(SITE_GIT_DIR) $(GEN_TARGET_DIR) $(CNAME)
 	cp -r $(GEN_TARGET_DIR)/* $(SITE_GIT_DIR)
