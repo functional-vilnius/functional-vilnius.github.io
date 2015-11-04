@@ -18,12 +18,14 @@ endif
 
 $(SITE_GIT_DIR):
 	git fetch origin master:master
+	mv .git/shallow{,_tmp} 2>/dev/null || true
 	git clone \
 		$(TRAVIS_LIMIT_DEPTH) \
 		--single-branch \
 		 -b master \
 		 "file://$(abspath $(dir $@))" \
 		  $@
+	mv .git/shallow{_tmp,} 2>/dev/null || true
 
 commit: | $(SITE_GIT_DIR) $(GEN_TARGET_DIR) $(CNAME)
 	cp -r $(GEN_TARGET_DIR)/* $(SITE_GIT_DIR)
