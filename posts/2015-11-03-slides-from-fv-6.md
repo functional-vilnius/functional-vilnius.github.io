@@ -12,7 +12,8 @@ Slides
 
 * [Golang from Scala developer's perspective](http://www.slideshare.net/SvtBozhko/golang-from-scala-developers-perspective), [*Svetlana Bozhko*](https://twitter.com/sbozhko)
 
-* [A look through the lens](/meetups/meetups/2015-10-21-functional-vilnius-06/alex-gryzlov-lenses/lens.pdf), [*Alex Gryzlov*](https://twitter.com/clayrat)
+* [A look through the lens](/meetups/meetups/2015-10-21-functional-vilnius-06/alex-gryzlov-lenses/lens.pdf), [*Alex Gryzlov*](https://twitter.com/clayrat)\
+  Code can be found [here](https://github.com/functional-vilnius/meetups/tree/gh-pages/meetups/2015-10-21-functional-vilnius-06/alex-gryzlov-lenses/code).
 
 
 Next meetup
