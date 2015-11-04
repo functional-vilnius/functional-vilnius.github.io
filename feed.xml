@@ -6,8 +6,33 @@
         <description><![CDATA[Blog posts and announcements on Functional Vilnius]]></description>
         <atom:link href="http://functionalvilnius.lt/feed.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Sat, 03 Oct 2015 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Nov 2015 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Slides from Functional Vilnius #6</title>
+    <link>http://functionalvilnius.lt/posts/2015-11-03-slides-from-fv-6.html</link>
+    <description><![CDATA[<div class="info">
+    Posted on November  3, 2015
+    
+        by Ignas
+    
+</div>
+
+<p>It was great seeing you all after the summer and we hope you enjoyed the meetup as much as we did!</p>
+<p>Huge thanks again to Svetlana and Alex for their talks and here are their slides.</p>
+<h2 id="slides">Slides</h2>
+<ul>
+<li><p><a href="http://www.slideshare.net/SvtBozhko/golang-from-scala-developers-perspective">Golang from Scala developer’s perspective</a>, <a href="https://twitter.com/sbozhko"><em>Svetlana Bozhko</em></a></p></li>
+<li><p><a href="/meetups/meetups/2015-10-21-functional-vilnius-06/alex-gryzlov-lenses/lens.pdf">A look through the lens</a>, <a href="https://twitter.com/clayrat"><em>Alex Gryzlov</em></a></p></li>
+</ul>
+<h2 id="next-meetup">Next meetup</h2>
+<p>We are very excited about next meetup which will happen <em>on Thursday</em>, November 19th.</p>
+<p>We’ll announce the location and the secret speaker list soon, but expect some great talks from guests from far away lands and lots of F#!</p>
+<p>You can already RSVP to the meeting <a href="http://www.meetup.com/functional-vilnius/events/226279175/">here</a>.</p>
+]]></description>
+    <pubDate>Tue, 03 Nov 2015 00:00:00 UT</pubDate>
+    <guid>http://functionalvilnius.lt/posts/2015-11-03-slides-from-fv-6.html</guid>
+</item>
+<item>
     <title>Function Vilnius is back from holidays, get ready for meetup #6</title>
     <link>http://functionalvilnius.lt/posts/2015-10-03-6th-meetup-announcement.html</link>
     <description><![CDATA[<div class="info">
