@@ -12,4 +12,5 @@ script:
   - make build
   - git config --global user.name "λ-Wolf bot"
   - git config --global user.email info@functionalvilnius.lt
+  - git fetch --unshallow
   - ' [ "${TRAVIS_PULL_REQUEST}" = "true" ] || set -o pipefail && (travis_retry make commit && travis_retry make upload) 2>&1 | sed -r "s|https://(.*)@|https://{{SECRET}}@|g" '
