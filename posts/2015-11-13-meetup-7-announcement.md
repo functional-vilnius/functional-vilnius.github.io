@@ -1,5 +1,5 @@
 ---
-title: Functional Vilnius 7: It's F\# time!
+title: Functional Vilnius 7: It's F# time!
 author: Ignas
 ---
 
