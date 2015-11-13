@@ -6,8 +6,39 @@
         <description><![CDATA[Blog posts and announcements on Functional Vilnius]]></description>
         <atom:link href="http://functionalvilnius.lt/feed.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Tue, 03 Nov 2015 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Nov 2015 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Functional Vilnius 7: It's F\# time!</title>
+    <link>http://functionalvilnius.lt/posts/2015-11-13-meetup-7-announcement.html</link>
+    <description><![CDATA[<div class="info">
+    Posted on November 13, 2015
+    
+        by Ignas
+    
+</div>
+
+<p>Hello functional people,</p>
+<p>We are excited more than ever to announce our next meetup, because we are lucky to have some Big Names on our speaker list this time.</p>
+<h2 id="speakers-and-talks">Speakers and talks</h2>
+<p>Thanks to the <a href="http://buildstuff.lt/">Build Stuff 2015</a> conference, many software development experts are going to be in Vilnius next week. We have managed to lure in some F# enthusiasts speaking at Build Stuff to also come enlighten us and give us a view of functional programming from their camp!</p>
+<h3 id="rachel-reese-type-providers"><a href="http://rachelree.se/">Rachel Reese</a>, <em>Type Providers</em></h3>
+<p>Our first speaker is Rachel Reese, who’s among <a href="http://rachelree.se/about/">other things</a> a math geek, an F# MVP and a big voice in the F# community.</p>
+<p>She will introduce us to a very cool feature of F# called <em>Type Providers</em>, which can be used to achieve type safety when interfacing with external entities.</p>
+<h3 id="phillip-trelford-generative-art-in-f-and-ocaml"><a href="http://trelford.com/">Phillip Trelford</a>, <em>Generative Art in F# and OCaml</em></h3>
+<p>Phillip Trelford is a very early F# adopter and advocate and the co-author of <a href="https://www.manning.com/books/f-sharp-deep-dives">F# Deep Dives</a>.</p>
+<p>He will entertain us with a talk on generative art done functionally! Expect some pretty pictures and elegant functional code.</p>
+<h2 id="datelocation">Date/location</h2>
+<p>Date: Thursday, November 19, 19:00</p>
+<p>Location: VU MIF, Naugarduko g. 24, LT-03225 Vilnius<br />Map: <a href="https://www.google.lt/maps/place/Faculty+of+Mathematics+and+Informatics,+VU/@54.6750993,25.2716828,17z/data=!3m1!4b1!4m2!3m1!1s0x46dd946db549699f:0xc50ce545ac33a4ff?hl=en">here</a></p>
+<p>Please RSVP <a href="http://www.meetup.com/functional-vilnius/events/226279175/">here</a>.</p>
+<h2 id="fby-ticket-lottery"><code>f(by)</code> ticket lottery</h2>
+<p>Our <a href="http://dev.by/">friends in Belarus</a> are inviting us to join their first, international conference on Functional Programming – <a href="http://fby.by/en/">f(by)</a>. It will happen on the 28th of November in Minsk, with a focus on Scala and Haskell.</p>
+<p>What’s even more, they promised us a free ticket, that we are giving away to our community, so please come to the meetup for a chance to win one!</p>
+]]></description>
+    <pubDate>Fri, 13 Nov 2015 00:00:00 UT</pubDate>
+    <guid>http://functionalvilnius.lt/posts/2015-11-13-meetup-7-announcement.html</guid>
+</item>
+<item>
     <title>Slides from Functional Vilnius #6</title>
     <link>http://functionalvilnius.lt/posts/2015-11-03-slides-from-fv-6.html</link>
     <description><![CDATA[<div class="info">
